@@ -1,0 +1,27 @@
+Easy eBook Maker
+===================
+**- for the very simple eBook on Github -**
+
+October 25th, 2008 by ashbb (Satoshi Asakawa)
+
+Table of contents
+-----------------
+1. Introduction
+	- [Concept](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00101_Concept.mdown)
+	- [Directory Structure ](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00102_Directory_Structure_.mdown)
+	- [Usage](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00103_Usage.mdown)
+2. [sample page](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00200_sample_page.mdown)
+3. [Acknowledgment](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00300_Acknowledgment.mdown)
+4. [Appendix](http://github.com/ashbb/easy_ebook_maker/tree/master/mdowns/00400_Appendix.mdown)
+
+Change log:
+-----------
+Oct 25th, 2008: first commit
+
+To do list:
+-----------
+Under consideration. Welcome your suggestions. :-P
+
+Enjoy!<br>
+ashbb
+

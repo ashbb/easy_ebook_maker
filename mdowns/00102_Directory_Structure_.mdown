@@ -1,0 +1,9 @@
+Directory Structure 
+--------------------
+
+Need the following directories.
++ html
++ images
++ mdowns
++ src
++ tools

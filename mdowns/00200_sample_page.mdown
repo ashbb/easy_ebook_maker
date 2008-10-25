@@ -1,0 +1,14 @@
+sample page
+-----------
+
+This is a sample page. <br>
+You can edit each **.mdown** text files with **Markdown format**.<br>
+See the following url.<br>
+<http://daringfireball.net/projects/markdown/>
+
+	# sample1.rb
+	puts 'Hello world!'
+
+**rlbanner.jpg**
+
+![rlbanner.jpg](http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimages%2Frlbanner.jpg?raw=true)

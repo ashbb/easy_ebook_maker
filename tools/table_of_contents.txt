@@ -1,0 +1,27 @@
+Easy eBook Maker
+===================
+**- for the very simple eBook on Github -**
+
+October 25th, 2008 by ashbb (Satoshi Asakawa)
+
+Table of contents
+-----------------
+00100.#Introduction
+00101. Concept
+00102. Directory Structure 
+00103. Usage
+00200. sample page
+00300. Acknowledgment
+00400. Appendix
+
+Change log:
+-----------
+Oct 25th, 2008: first commit
+
+To do list:
+-----------
+Under consideration. Welcome your suggestions. :-P
+
+Enjoy!<br>
+ashbb
+
