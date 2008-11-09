@@ -1,7 +1,7 @@
 # mkmd.rb
 
 # Create ../README.md and reference ../md/***.md files, if they do not exist.
-PATH = 'http://github.com/ashbb/shoes_tutorial_html/tree/master/md/'
+PATH = 'http://github.com/ashbb/easy_ebook_maker/tree/master/md/'
 
 def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.md'
@@ -30,7 +30,7 @@ def make_link name
   lines = []
   lines << "**#{name}**"
   lines << "\n"
-  lines << "![#{name}](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimg%2F#{name}?raw=true)"
+  lines << "![#{name}](http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimg%2F#{name}?raw=true)"
 end
 
 Dir.glob("../md/*.md").each do |file|

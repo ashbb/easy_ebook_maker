@@ -2,7 +2,7 @@
 require 'BlueCloth'
 
 b = BlueCloth.new IO.read('../README.md')
-b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/md/', '(../html/')
+b.gsub!('(http://github.com/ashbb/easy_ebook_maker/tree/master/md/', '(../html/')
 b.gsub!('.md)', '.html)')
 open('../html/index.html', 'w'){|f| f.puts b.to_html}
 
