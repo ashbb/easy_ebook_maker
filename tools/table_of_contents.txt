@@ -1,8 +1,7 @@
 Easy eBook Maker
 ===================
-**- for the very simple eBook on Github -**
-
-October 25th, 2008 by ashbb (Satoshi Asakawa)
+**- for the very simple eBook on Github -** <br>
+Nov. 9th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -16,11 +15,13 @@ Table of contents
 
 Change log:
 -----------
-Oct 25th, 2008: first commit
+- Nov 09th, 2008: Code Highliter for html files. Changed markdown file extension. Changed directory name. Wrote some .md files' contents.
+- Oct 25th, 2008: first commit
 
 To do list:
 -----------
 Under consideration. Welcome your suggestions. :-P
+- links between pages
 
 Enjoy!<br>
 ashbb

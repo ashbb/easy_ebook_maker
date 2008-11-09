@@ -3,7 +3,8 @@ Directory Structure
 
 Need the following directories.
 + html
-+ images
-+ mdowns
+	- static
++ img
++ md
 + src
 + tools
