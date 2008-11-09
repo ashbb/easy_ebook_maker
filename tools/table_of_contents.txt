@@ -15,6 +15,7 @@ Table of contents
 
 Change log:
 -----------
+- Nov 09th, 2008: Added the information about PATH in tool programs.
 - Nov 09th, 2008: Code Highliter for html files. Changed markdown file extension. Changed directory name. Wrote some .md files' contents.
 - Oct 25th, 2008: first commit
 

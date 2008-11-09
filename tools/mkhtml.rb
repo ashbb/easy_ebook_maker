@@ -1,8 +1,9 @@
 # mkhtml.rb
 require 'BlueCloth'
+PATH = 'http://github.com/ashbb/easy_ebook_maker/tree/master'
 
 b = BlueCloth.new IO.read('../README.md')
-b.gsub!('(http://github.com/ashbb/easy_ebook_maker/tree/master/md/', '(../html/')
+b.gsub!("(#{PATH}/md/", '(../html/')
 b.gsub!('.md)', '.html)')
 open('../html/index.html', 'w'){|f| f.puts b.to_html}
 

@@ -1,13 +1,13 @@
 # mkmd.rb
 
 # Create ../README.md and reference ../md/***.md files, if they do not exist.
-PATH = 'http://github.com/ashbb/easy_ebook_maker/tree/master/md/'
+PATH = 'http://github.com/ashbb/easy_ebook_maker/tree/master'
 
 def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.md'
   open('../md/' + fname, 'w'){|f| f.puts name, '-' * name.length} unless File.exist?('../md/' + fname)
   line = num[3..4] == '00' ? i.to_s + '. ' : "\t- "
-  line << "[#{name}](#{PATH + fname})"
+  line << "[#{name}](#{PATH + '/md/' + fname})"
 end
 
 open('../README.md', 'w') do |f|
@@ -30,7 +30,7 @@ def make_link name
   lines = []
   lines << "**#{name}**"
   lines << "\n"
-  lines << "![#{name}](http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimg%2F#{name}?raw=true)"
+  lines << "![#{name}](#{PATH}%2Fimg%2F#{name}?raw=true)"
 end
 
 Dir.glob("../md/*.md").each do |file|
