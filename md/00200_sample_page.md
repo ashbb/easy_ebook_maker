@@ -9,7 +9,7 @@ You can edit each **.md** text files with **Markdown format**.<br>
 
 **rlbanner.jpg**
 
-![rlbanner.jpg](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimg%2Frlbanner.jpg?raw=true)
+![rlbanner.jpg](http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimg%2Frlbanner.jpg?raw=true)
 
 	# adventure_game.rb
 	
@@ -100,6 +100,4 @@ You can edit each **.md** text files with **Markdown format**.<br>
 	puts imp.moveActorTo(player, :e)
 	puts imp.moveActorTo(player, :s)
 
-**adv\_on\_shoes.png**
-
-![adv\_on\_shoes.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimg%2Fadv\_on\_shoes.png?raw=true)
+ adv\_on\_shoes.png
