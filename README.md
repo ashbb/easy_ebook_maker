@@ -15,6 +15,8 @@ Table of contents
 
 Change log:
 -----------
+- Nov 10th, 2008: Moved PATH from program files to EasyEBook module.
+- Nov 10th, 2008: Added rubydoctest to 'proof' Module Constant PATH.
 - Nov 09th, 2008: Added the information about PATH in tool programs.
 - Nov 09th, 2008: Code Highliter for html files. Changed markdown file extension. Changed directory name. Wrote some .md files' contents.
 - Oct 25th, 2008: first commit
