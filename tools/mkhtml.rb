@@ -1,7 +1,7 @@
 #!/bin/env ruby
 # mkhtml.rb
 require 'easy_ebook'
-include EasyEBook
+
 begin
   require 'BlueCloth'
   rescue LoadError => e

@@ -1,7 +1,7 @@
 Easy eBook Maker
 ===================
 **- for the very simple eBook on Github -** <br>
-Nov. 9th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 10th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -15,8 +15,8 @@ Table of contents
 
 Change log:
 -----------
-- Nov 10th, 2008: Moved PATH from program files to EasyEBook module.
-- Nov 10th, 2008: Added rubydoctest to 'proof' Module Constant PATH.
+- Nov 10th, 2008: Moved PATH from program files to easy_ebook.rb. (by Vic)
+- Nov 10th, 2008: Added rubydoctest to 'proof' Constant PATH. (by Vic)
 - Nov 09th, 2008: Added the information about PATH in tool programs.
 - Nov 09th, 2008: Code Highliter for html files. Changed markdown file extension. Changed directory name. Wrote some .md files' contents.
 - Oct 25th, 2008: first commit

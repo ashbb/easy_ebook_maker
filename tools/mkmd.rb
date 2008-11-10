@@ -1,8 +1,7 @@
 #!/bin/env ruby
 # mkmd.rb
-require 'easy_ebook'
-
 # Create ../README.md and reference ../md/***.md files, if they do not exist.
+require 'easy_ebook'
 
 def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.md'
