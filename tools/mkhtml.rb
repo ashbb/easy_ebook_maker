@@ -1,5 +1,13 @@
+#!/bin/env ruby
 # mkhtml.rb
-require 'BlueCloth'
+
+begin
+  require 'BlueCloth'
+  rescue LoadError => e
+  puts 'See error message for required gem: ', e 
+  exit (1)
+end 
+
 PATH = 'http://github.com/ashbb/easy_ebook_maker/tree/master'
 
 b = BlueCloth.new IO.read('../README.md')
