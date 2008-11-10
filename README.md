@@ -15,6 +15,7 @@ Table of contents
 
 Change log:
 -----------
+- Nov 10th, 2008: Added and edited some usages.
 - Nov 10th, 2008: Moved PATH from program files to easy_ebook.rb. (by Vic)
 - Nov 10th, 2008: Added rubydoctest to 'proof' Constant PATH. (by Vic)
 - Nov 09th, 2008: Added the information about PATH in tool programs.
