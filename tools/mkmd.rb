@@ -33,18 +33,22 @@ def make_link name
   lines << "![#{name}](#{PATH}%2Fimg%2F#{name}?raw=true)"
 end
 
+def make_page_link name
+  fname = ''
+  Dir.glob("../md/*.md").each{|f| fname = f[6..-1]  if f[6,5] == name}
+  "[#{fname[6..-4]}](#{PATH + '/md/' + fname})"
+end
+
+
 Dir.glob("../md/*.md").each do |file|
   lines = IO.readlines(file)
   open(file, 'w') do |f|
     lines.each do |line|
-      name = /^# *(.*\.rb)/.match(line).to_a[1]
-      if name
-        line = read_src(name)
-      else
-        name = /^# *(.*\.(png|jpg))/.match(line).to_a[1]
-        line = make_link(name) if name
-      end
-      f.puts line
+      new_line = line
+      line.sub(/^# *(.*\.rb)/){new_line = read_src($1)}
+      line.sub(/^# *(.*\.(png|jpg))/){new_line = make_link($1)}
+      line.sub(/^# *page *(prev|next|.*)/){new_line = make_page_link($1)}
+      f.puts new_line
     end
   end
 end
