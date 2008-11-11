@@ -1,13 +1,13 @@
 Easy eBook Maker
 ===================
 **- for the very simple eBook on Github -** <br>
-Nov. 9th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 11th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
 00100.#Introduction
 00101. Concept
-00102. Directory Structure 
+00102. Directory Structure
 00103. Usage
 00200. sample page
 00300. Acknowledgment
@@ -15,6 +15,10 @@ Table of contents
 
 Change log:
 -----------
+- Nov 11th, 2008: Added page-link feature.
+- Nov 10th, 2008: Added and edited some usages.
+- Nov 10th, 2008: Moved PATH from program files to easy_ebook.rb. (by Vic)
+- Nov 10th, 2008: Added rubydoctest to 'proof' Constant PATH. (by Vic)
 - Nov 09th, 2008: Added the information about PATH in tool programs.
 - Nov 09th, 2008: Code Highliter for html files. Changed markdown file extension. Changed directory name. Wrote some .md files' contents.
 - Oct 25th, 2008: first commit
@@ -22,7 +26,7 @@ Change log:
 To do list:
 -----------
 Under consideration. Welcome your suggestions. :-P
-- links between pages
+- implement 'prev' and 'next' option of page-link
 
 Enjoy!<br>
 ashbb

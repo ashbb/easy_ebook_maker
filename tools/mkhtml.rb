@@ -30,5 +30,7 @@ Dir.glob("../md/*.md").each do |mfile|
     end
   end
   b = BlueCloth.new IO.read(hfile)
+  b.gsub!("(#{PATH}/md/", '(../html/')
+  b.gsub!('.md)', '.html)')
   open(hfile, 'w'){|f| f.puts style_css, b.to_html.gsub(/<code>/, '<code class="ruby">')}
 end

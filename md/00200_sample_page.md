@@ -103,4 +103,3 @@ You can edit each **.md** text files with **Markdown format**.<br>
 **adv\_on\_shoes.png**
 
 ![adv\_on\_shoes.png](http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimg%2Fadv\_on\_shoes.png?raw=true)
-
