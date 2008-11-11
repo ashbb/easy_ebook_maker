@@ -2,11 +2,12 @@
 # mkhtml.rb
 require 'easy_ebook'
 include EasyEBook
+
 begin
   require 'BlueCloth'
   rescue LoadError => e
-  puts 'See error message for required gem: ', e 
-  exit (1)
+    puts 'See error message for required gem: ', e 
+    exit (1)
 end 
 
 b = BlueCloth.new IO.read('../README.md')
