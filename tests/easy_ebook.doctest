@@ -1,6 +1,8 @@
 doctest: required constant available
 >> require '../tools/easy_ebook'
 => true
+>> include EasyEBook
+=> Object 
 doctest: Short variable name of PATH is defined as a constant.
 >> defined?(PATH)
 => "constant"

@@ -2,6 +2,7 @@
 # mkmd.rb
 # Create ../README.md and reference ../md/***.md files, if they do not exist.
 require 'easy_ebook'
+include EasyEBook
 
 def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.md'
