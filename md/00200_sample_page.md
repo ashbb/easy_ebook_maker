@@ -112,4 +112,6 @@ test
 
 ![sample16.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample16.png?raw=true)
 
+<img src="http://github.com/ashbb/easy_ebook_maker/tree/master%2Fimg%2Fadv\_on\_shoes.png?raw=true" alt="adv_on_shoes.png" />
+
 
