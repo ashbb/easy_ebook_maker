@@ -109,3 +109,7 @@ test
 ----
 ![sample93.png](http://www.rin-shun.com/rubylearning/shoes/sample93.png)
 
+
+![sample16.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample16.png?raw=true)
+
+
