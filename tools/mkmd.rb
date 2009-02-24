@@ -31,7 +31,7 @@ def make_link name
   lines = []
   lines << "**#{name}**"
   lines << "\n"
-  lines << "![#{name}](#{PATH}%2Fimg%2F#{name}?raw=true)"
+  lines << "![#{name}](#{PATH.sub('/tree/', '/raw/')}/img/#{name})"
 end
 
 def make_page_link name

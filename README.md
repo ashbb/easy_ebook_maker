@@ -1,7 +1,7 @@
 Easy eBook Maker
 ===================
 **- for the very simple eBook on Github -** <br>
-Nov. 13th, 2008 by ashbb (Satoshi Asakawa)
+Feb. 24th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -15,6 +15,7 @@ Table of contents
 
 Change log:
 -----------
+- Feb 24th, 2009: Updated mkmd.rb for changing the path of link to the image file.
 - Nov 13th, 2008: Updated tools and easy_ebook.doctest. For using module. (by Vic)
 - Nov 11th, 2008: Added page-link feature.
 - Nov 10th, 2008: Added and edited some usages.
