@@ -29,6 +29,7 @@ Change log:
 To do list:
 -----------
 Under consideration. Welcome your suggestions. :-P
+
 - implement 'prev' and 'next' option of page-link
 - replace page-links and image-links from github urls to local urls with `mkbightml`
 
